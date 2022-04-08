@@ -5,14 +5,18 @@ import NavBar from "../NavBar";
 import CropCardsList from "../CropCardsList/index";
 import "./index.css";
 const Home = () => {
+  let cropDetails=useSelector(state=>state)
   const [fetch, setFetch] = useState(false);
   const dispatch = useDispatch();
   const fetchData = () => {
     const checkIfCropDataExists = localStorage.getItem("crop_data");
     if (checkIfCropDataExists === null) {
       dispatch(fetchCropDetails());
+    } 
+    if (cropDetails!==null){
+      setFetch(true);
     }
-    setFetch(true);
+    
   };
 
   /**if (cropDetails.allCropsDetails.crop_details.length !== 0) {

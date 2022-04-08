@@ -1,14 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
+import React from "react"
 import Home from "./components/Home";
 import SignUpLogin from "./components/SignUpLogin/index";
 import AuthorizedRoute from "./components/AuthorizedRoute";
 import NavBar from "./components/NavBar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<SignUpLogin />} />
           <Route exact path="/fetch_normal" element={<Home />} />
@@ -25,7 +26,7 @@ function App() {
             }
           ></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
