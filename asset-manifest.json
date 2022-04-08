@@ -1,14 +1,14 @@
 {
-  "files": {
-    "main.css": "/LoginScreen/static/css/main.623b3693.css",
-    "main.js": "/LoginScreen/static/js/main.c2f45e53.js",
-    "static/media/logo.svg": "/LoginScreen/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/LoginScreen/index.html",
-    "main.623b3693.css.map": "/LoginScreen/static/css/main.623b3693.css.map",
-    "main.c2f45e53.js.map": "/LoginScreen/static/js/main.c2f45e53.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.623b3693.css",
-    "static/js/main.c2f45e53.js"
-  ]
+  "main.css": "/LoginScreen/static/css/main.6f1ec5a0.chunk.css",
+  "main.js": "/LoginScreen/static/js/main.01edfb11.chunk.js",
+  "main.js.map": "/LoginScreen/static/js/main.01edfb11.chunk.js.map",
+  "static/js/1.9bb3c166.chunk.js": "/LoginScreen/static/js/1.9bb3c166.chunk.js",
+  "static/js/1.9bb3c166.chunk.js.map": "/LoginScreen/static/js/1.9bb3c166.chunk.js.map",
+  "runtime~main.js": "/LoginScreen/static/js/runtime~main.9d00610c.js",
+  "runtime~main.js.map": "/LoginScreen/static/js/runtime~main.9d00610c.js.map",
+  "static/media/logo.svg": "/LoginScreen/static/media/logo.06e73328.svg",
+  "static/css/main.6f1ec5a0.chunk.css.map": "/LoginScreen/static/css/main.6f1ec5a0.chunk.css.map",
+  "index.html": "/LoginScreen/index.html",
+  "precache-manifest.ca8f3a1221cb1c8868443d28e8ba20d5.js": "/LoginScreen/precache-manifest.ca8f3a1221cb1c8868443d28e8ba20d5.js",
+  "service-worker.js": "/LoginScreen/service-worker.js"
 }
